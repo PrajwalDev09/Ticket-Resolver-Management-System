@@ -1,6 +1,6 @@
 # About Project:-
 **The Ticket Resolver & Management System is a full stack Java application website that I developed as part of my learning journey during my six-month Internship at Persistent Systems(Jan'23-July-23).
-Core Track: Java(Batch-3)**
+Core Track: Java(Batch-2)**
 
 This comprehensive website serves as a robust ticket management system, offering a wide range of features to streamline the support ticketing process.
 
