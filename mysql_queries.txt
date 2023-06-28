@@ -1,0 +1,7 @@
+// Run in phpMyAdmin or Whatever You're Using to Reach your Database Panel:
+ALTER TABLE `articles` ADD `logged_in_only` TINYINT UNSIGNED NOT NULL DEFAULT '0' AFTER `visibility`;
+ALTER TABLE `faqs` ADD `logged_in_only` TINYINT UNSIGNED NOT NULL DEFAULT '0' AFTER `visibility`;
+ALTER TABLE `custom_fields` ADD `visibility` TINYINT UNSIGNED NOT NULL DEFAULT '1' AFTER `guide_text`;
+CREATE TABLE `custom_pages` (`id` INT UNSIGNED NOT NULL AUTO_INCREMENT, `name` VARCHAR(30) NOT NULL, `slug` VARCHAR(30) NOT NULL, `content` MEDIUMTEXT NOT NULL, `meta_description` VARCHAR(255) NOT NULL, `meta_keywords` VARCHAR(255) NOT NULL, `visibility` TINYINT UNSIGNED NOT NULL, `created_by` INT UNSIGNED NOT NULL, `updated_at` INT UNSIGNED NULL, `created_at` INT UNSIGNED NOT NULL, PRIMARY KEY (`id`)) ENGINE = InnoDB;
+ALTER TABLE `pages` CHANGE `content` `content` MEDIUMTEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL;
+CREATE TABLE `tickets_notes` (`id` INT UNSIGNED NOT NULL AUTO_INCREMENT, `user_id` INT UNSIGNED NULL, `ticket_id` INT UNSIGNED NOT NULL, `note` VARCHAR(500) NOT NULL, `attachment` VARCHAR(255) NOT NULL, `attachment_name` VARCHAR(255) NOT NULL, `created_at` INT UNSIGNED NOT NULL, PRIMARY KEY (`id`)) ENGINE = InnoDB;
