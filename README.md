@@ -41,11 +41,11 @@ Manage user profiles, settings, and active sessions with ease.
 The Ticket Resolver & Management System provides a comprehensive and secure solution for managing support tickets. 
 
 Login Types:-
-# Customer(For Ticket Creation,etc)
-# Agent(For Ticket Solving,etc)
-# Admin(For Assigning Ticket,Authorize Credentials,etc) 
+**Customer(For Ticket Creation,etc)**
+**Agent(For Ticket Solving,etc)**
+**Admin(For Assigning Ticket,Authorize Credentials,etc)**
 
-# Screenshot Implementation:-
+# Project Implementation:-
 
 
 
