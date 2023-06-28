@@ -1,0 +1,119 @@
+/* General: */
+a:hover {
+  color: #ac62c5;
+}
+
+.bg-sub {
+  background-color: #ac62c5;
+}
+
+.text-sub {
+  color: #ac62c5;
+}
+
+
+/* Theme Buttons: */
+.btn-z:not(.no-hover):hover {
+  background-color: #ac62c5;
+  border-color: #ac62c5;
+}
+
+.btn-z:hover,
+.btn-z:focus {
+  color: #fff !important;
+}
+
+.btn-sub {
+  color: #fff !important;
+  background-color: #ac62c5 !important;
+  border-color: #ac62c5 !important;
+}
+
+.btn-sub:hover,
+.btn-sub:active,
+.btn-sub:disabled {
+  background-color: #9f4dba !important;
+  border-color: #9f4dba !important;
+  color: #fff !important;
+}
+
+.btn-outline-sub,
+.btn-outline-sub:disabled,
+.btn-outline-sub:focus {
+  border-color: #ac62c5 !important;
+  color: #ac62c5 !important;
+}
+
+.btn-outline-sub:hover,
+.btn-outline-sub:active {
+  background-color: #ac62c5 !important;
+  color: #fff !important;
+}
+
+
+/* Pace: */
+.pace .pace-progress {
+  background: #ac62c5;
+}
+
+.pace .pace-progress-inner {
+  box-shadow: 0 0 10px #ac62c5, 0 0 5px #ac62c5;
+}
+
+.pace .pace-activity {
+  border-top-color: #ac62c5;
+  border-left-color: #ac62c5;
+}
+
+
+/* Navbar: */
+.navbar-z .nav-link.active {
+  font-weight: 700;
+  color: #ac62c5 !important;
+}
+
+
+/* Posts: */
+.z-posts .content-holder a {
+  color: #ac62c5;
+}
+
+.z-posts .content blockquote {
+  border-left: 3px solid #ac62c5;
+}
+
+
+/* FAQs: */
+.z-faqs .accordion-button:not(.collapsed) {
+  color: #ac62c5;
+}
+
+.z-faqs .accordion-button::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ac62c5'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.z-faqs .accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgb(172 98 197 / 22%);
+}
+
+
+/* Tickets: */
+.z-listing-ticket-replies .message a:not(.no-site-color) {
+  color: #ac62c5;
+}
+
+
+/* @version 1.4 */
+.chat-box-body .chat-message:not(.requestor) span {
+  background-color: #ffe8f9;
+}
+
+.chat-box-body .chat-message span a {
+  color: #ac62c5;
+}
+
+
+/* @version 1.6 */
+.border-sub {
+  border-color: #ac62c5;
+}
